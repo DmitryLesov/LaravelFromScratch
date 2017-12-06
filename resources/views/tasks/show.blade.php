@@ -1,13 +1,6 @@
-<!doctype html>
-<html>
-<head>
+@extends('_layouts.layout')
 
-    <title>xui</title>
 
-</head>
-<body>
-<div>
+@section('content')
     <h1>{{$task->body}}</h1>
-</div>
-</body>
-</html>
+@endsection

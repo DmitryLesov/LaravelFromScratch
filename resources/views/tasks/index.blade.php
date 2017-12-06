@@ -1,12 +1,7 @@
-<!doctype html>
-<html>
-<head>
+@extends('_layouts.layout')
 
-    <title>xui</title>
 
-</head>
-<body>
-<div>
+@section('content')
     <ul>
         @foreach($tasks as $task)
             <li>
@@ -16,6 +11,5 @@
             </li>
         @endforeach
     </ul>
-</div>
-</body>
-</html>
+@endsection
+
